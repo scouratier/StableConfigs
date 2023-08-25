@@ -1,0 +1,29 @@
+{
+	"multiTimeFrame": false,
+	"lowTimeFrame": 1,
+	"midTimeFrame": 30,
+	"highTimeFrame": 240,
+	"maxRiskPerContract": 50,
+	"minRiskPerContract": 0,
+	"takeProfits": [{
+		"sizing": 1,
+		"RR": 0.5
+	},{
+		"sizing": 1,
+		"RR": 1
+	}],
+	"trailingTPSizing": 0,
+	"freedomTrailSizing": 0,
+	"dynamicStopLoss": true,
+	"pullBackValidationPercent": 0.3,
+	"takeShorts": true,
+	"takeLongs": true,
+	"maxEntriesPerDay": 0,
+	"drawDebug": false,
+	"drawActiveHighsAndLows": true,
+	"ActiveSessions": [{
+			"start": "10:00:00",
+			"end": "16:59:00"
+		}
+	]
+}
