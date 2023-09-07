@@ -1,29 +1,38 @@
 {
 	"multiTimeFrame": false,
-	"lowTimeFrame": 1,
-	"midTimeFrame": 30,
-	"highTimeFrame": 240,
-	"maxRiskPerContract": 50,
-	"minRiskPerContract": 0,
-	"takeProfits": [{
+	"lowTimeFrame": 5,
+	"midTimeFrame": 15,
+	"highTimeFrame": 90,
+	"maxRiskPerContract": 20000,
+	"minRiskPerContract": 1,
+	"takeProfits": [
+	{
+		"style": "dynamic",
 		"sizing": 1,
-		"RR": 0.5
-	},{
+		"RR": 1,
+		"Target": 40
+	},
+	{
+		"style": "dynamic",
 		"sizing": 1,
-		"RR": 1
-	}],
+		"RR": 2,
+		"Target": 40
+	}
+],
+	"breakEven": true,
 	"trailingTPSizing": 0,
 	"freedomTrailSizing": 0,
 	"dynamicStopLoss": true,
-	"pullBackValidationPercent": 0.3,
+	"pullBackValidationPercent": 0.10,
 	"takeShorts": true,
 	"takeLongs": true,
 	"maxEntriesPerDay": 0,
-	"drawDebug": false,
+	"drawDebug": true,
 	"drawActiveHighsAndLows": true,
+	"drawMultiTimeFrameState": false,
 	"ActiveSessions": [{
-			"start": "10:00:00",
-			"end": "16:59:00"
+			"start": "19:00:00",
+			"end": "19:00:00"
 		}
 	]
 }
