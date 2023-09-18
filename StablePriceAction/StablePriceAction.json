@@ -1,29 +1,7 @@
 {
-	"multiTimeFrame": false,
-	"lowTimeFrame": 5,
-	"midTimeFrame": 15,
-	"highTimeFrame": 90,
-	"maxRiskPerContract": 20000,
-	"minRiskPerContract": 1,
-	"takeProfits": [
-	{
-		"style": "dynamic",
-		"sizing": 1,
-		"RR": 1,
-		"Target": 40
-	},
-	{
-		"style": "dynamic",
-		"sizing": 1,
-		"RR": 2,
-		"Target": 40
-	}
-],
-	"breakEven": true,
-	"trailingTPSizing": 0,
-	"freedomTrailSizing": 0,
-	"dynamicStopLoss": true,
-	"minConsolidationSize": 10.0,
+	"resetStructureDaily": false,
+	"minConsolidationSize": 0.1,
+	"consolidationBuffer": 0.02,
 	"pullBackValidationPercent": 0.10,
 	"takeShorts": true,
 	"takeLongs": true,
@@ -33,8 +11,69 @@
 	"drawActiveHighsAndLows": true,
 	"drawMultiTimeFrameState": false,
 	"ActiveSessions": [{
-			"start": "19:00:00",
-			"end": "19:00:00"
+			"start": "18:00:00",
+			"end": "18:00:00"
 		}
-	]
+	],
+	"multiTimeFrameTrading": false,
+	"multiTimeFrameTradingSettings": {
+		"lowTimeFrame": 5,
+		"midTimeFrame": 90,
+		"highTimeFrame": 240,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+				{
+					"style": "static",
+					"sizing": 1,
+					"RR": 1,
+					"Target": 20
+				},
+				{
+					"style": "static",
+					"sizing": 1,
+					"RR": 2,
+					"Target": 40
+				}
+			],
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
+	},
+	"breakoutTrading": true,
+	"breakoutTradingSettings": {
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+			{
+				"style": "static",
+				"sizing": 1,
+				"RR": 1,
+				"Target": 40
+			}
+		],
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
+	},
+	"swingStyleTrading": false,
+	"swingStyleTradingSettings": {
+		"lowTimeFrame": 1,
+		"highTimeFrame": 180,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+				{
+					"style": "dynamic",
+					"sizing": 1,
+					"RR": 0.1,
+					"Target": 50
+				}
+			],
+		"breakEven": true,
+		"trailingTPSizing": 1,
+		"dynamicStopLoss": false,
+		"staticStopLoss": 200,
+		"entriesPerDay": 1
+	}
 }

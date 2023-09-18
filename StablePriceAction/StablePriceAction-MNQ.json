@@ -1,32 +1,82 @@
 {
-	"multiTimeFrame": false,
-	"lowTimeFrame": 5,
-	"midTimeFrame": 15,
-	"highTimeFrame": 90,
-	"maxRiskPerContract": 20000,
-	"minRiskPerContract": 1,
-	"takeProfits": [
-	{
-		"style": "dynamic",
-		"sizing": 1,
-		"RR": 1,
-		"Target": 40
-	}
-],
-	"breakEven": true,
-	"trailingTPSizing": 1,
-	"freedomTrailSizing": 0,
-	"dynamicStopLoss": true,
-	"pullBackValidationPercent": 0.33,
+	"resetStructureDaily": false,
+	"minConsolidationSize": 5.0,
+	"pullBackValidationPercent": 0.10,
 	"takeShorts": true,
 	"takeLongs": true,
 	"maxEntriesPerDay": 0,
+	"drawConsolidations": true,
 	"drawDebug": true,
 	"drawActiveHighsAndLows": true,
 	"drawMultiTimeFrameState": false,
 	"ActiveSessions": [{
-			"start": "19:00:00",
-			"end": "19:00:00"
+			"start": "18:00:00",
+			"end": "18:00:00"
 		}
-	]
+	],
+	"multiTimeFrameTrading": true,
+	"multiTimeFrameTradingSettings": {
+		"lowTimeFrame": 15,
+		"midTimeFrame": 90,
+		"highTimeFrame": 240,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+		{
+			"style": "dynamic",
+			"sizing": 2,
+			"RR": 1,
+			"Target": 40
+		},
+		{
+			"style": "dynamic",
+			"sizing": 1,
+			"RR": 5,
+			"Target": 40
+		}
+		],
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
+	},
+	"breakoutTrading": false,
+	"breakoutTradingSettings": {
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+			{
+				"style": "static",
+				"sizing": 1,
+				"RR": 1,
+				"Target": 40
+			}
+		],
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
+	},
+	"swingStyleTrading": true,
+	"swingStyleTradingSettings": {
+		"lowTimeFrame": 1,
+		"highTimeFrame": 240,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": [
+			{
+				"style": "static",
+				"sizing": 1,
+				"RR": 1,
+				"Target": 100
+			},
+			{
+				"style": "static",
+				"sizing": 1,
+				"RR": 1,
+				"Target": 500
+			}
+		],
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
+	}
 }
