@@ -52,22 +52,12 @@
 					"sizing": 1,
 					"RR": 1.1,
 					"tp": 50
-				},
-				{
-					"sizing": 1,
-					"RR": 1.0,
-					"tp": 20
-				},
-				{
-					"sizing": 1,
-					"RR": 1.0,
-					"tp": 35
 				}
 			]
 		},
 		"breakEven": true,
 		"trailingTPSizing": 0,
-		"dynamicStopLoss": true
+		"dynamicStopLoss": false
 	},
 	"swingStyleTrading": false,
 	"swingStyleTradingSettings": {
