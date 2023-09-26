@@ -1,0 +1,29 @@
+{
+	"version": "1.1.1",
+	"instruments": [{
+			"instrument": "MNQ",
+			"config": "StablePriceAction.json",
+			"active": true
+		},
+		{
+			"instrument": "MES",
+			"config": "StablePriceAction.json",
+			"active": true
+		},
+		{
+			"instrument": "FDXS",
+			"config": "StablePriceAction.json",
+			"active": true
+		},
+		{
+			"instrument": "FDXS",
+			"config": "StablePriceAction.json",
+			"active": true
+		},
+		{
+			"instrument": "MYM",
+			"config": "StablePriceAction.json",
+			"active": true
+		}
+	]
+}
