@@ -2,7 +2,7 @@
 	"version": "1.1.1",
 	"instruments": [{
 			"instrument": "MNQ",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction.json",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MNQ.json",
 			"active": true
 		},
 		{
