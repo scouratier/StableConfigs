@@ -21,9 +21,14 @@
 			"active": true
 		},
         {
+			"instrument": "MGC",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MGC.json",
+			"active": true
+		},
+        {
 			"instrument": "MCL",
 			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MCL.json",
-			"active": true
+			"active": false
 		}
 	]
 }
