@@ -2,7 +2,7 @@
 	"version": "1.1.1",
 	"instruments": [{
 			"instrument": "MNQ",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction.json",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MNQ.json",
 			"active": true
 		},
 		{
@@ -17,8 +17,18 @@
 		},
 		{
 			"instrument": "MYM",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction.json",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MYM.json",
 			"active": true
+		},
+        {
+			"instrument": "MGC",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MGC.json",
+			"active": true
+		},
+        {
+			"instrument": "MCL",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MCL.json",
+			"active": false
 		}
 	]
 }
