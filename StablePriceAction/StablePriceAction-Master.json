@@ -17,7 +17,12 @@
 		},
 		{
 			"instrument": "MYM",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction.json",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MYM.json",
+			"active": true
+		},
+        {
+			"instrument": "MCL",
+			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MCL.json",
 			"active": true
 		}
 	]
