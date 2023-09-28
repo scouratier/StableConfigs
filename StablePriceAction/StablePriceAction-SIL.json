@@ -1,7 +1,7 @@
 {
 	"resetStructureDaily": true,
 	"pullBackValidationPercent": 0.10,
-	"takeShorts": false,
+	"takeShorts": true,
 	"takeLongs": true,
 	"drawDebug": false,
 	"drawActiveHighsAndLows": true,
@@ -14,7 +14,10 @@
 	},
     "breakoutTrading": true,
 	"breakoutTradingSettings": {
-		"ActiveSessions": [
+		"ActiveSessions": [{
+			"start": "01:00:00",
+			"end": "16:30:00"
+			}
 		],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
@@ -24,14 +27,14 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 2,
-					"RR": 1.2,
-					"tp": 60
+					"sizing": 1,
+					"RR": 2.0,
+					"tp": 100
 				},
-                {
-					"sizing": 2,
-					"RR": 1.2,
-					"tp": 25
+				{
+					"sizing": 1,
+					"RR": 1.3,
+					"tp": 50
 				}
 			]
 		},

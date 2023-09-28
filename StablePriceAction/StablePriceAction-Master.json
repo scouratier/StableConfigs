@@ -2,27 +2,37 @@
 	"version": "1.1.1",
 	"instruments": [{
 			"instrument": "MNQ",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MNQ.json",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-MNQ.json",
 			"active": true
 		},
 		{
 			"instrument": "MES",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MES.json",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-MES.json",
 			"active": true
 		},
 		{
 			"instrument": "FDXS",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-FDXS.json",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-FDXS.json",
 			"active": true
 		},
 		{
 			"instrument": "MYM",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MYM.json",
-			"active": true
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-MYM.json",
+			"active": false
 		},
         {
 			"instrument": "MCL",
-			"configPath": "E:\\gitstuff\\StableConfigs\\StablePriceAction\\StablePriceAction-MCL.json",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-MCL.json",
+			"active": true
+		},
+        {
+			"instrument": "SIL",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-SIL.json",
+			"active": false
+		},
+        {
+			"instrument": "MGC",
+			"configPath": "C:\\StableTradingCommune\\StablePriceAction-MGC.json",
 			"active": false
 		}
 	]

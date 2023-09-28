@@ -27,12 +27,12 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 1,
+					"sizing": 5,
 					"RR": 1.25,
 					"tp": 75
 				},
 				{
-					"sizing": 1,
+					"sizing": 5,
 					"RR": 1.3,
 					"tp": 40
 				}
