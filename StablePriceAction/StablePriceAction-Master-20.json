@@ -1,0 +1,49 @@
+{
+	"version": "1.1.1",
+	"instruments": [{
+			"instrument": "MNQ",
+			"configPath": "StablePriceAction-MNQ.json",
+			"active": false
+		},
+		{
+			"instrument": "MES",
+			"configPath": "StablePriceAction-MES.json",
+			"active": false
+		},
+		{
+			"instrument": "FDXS",
+			"configPath": "StablePriceAction-FDXS.json",
+			"active": false
+		},
+		{
+			"instrument": "MYM",
+			"configPath": "StablePriceAction-MYM.json",
+			"active": false
+		},
+        {
+			"instrument": "MCL",
+			"configPath": "StablePriceAction-MCL.json",
+			"active": false
+		},
+        {
+			"instrument": "SIL",
+			"configPath": "StablePriceAction-SIL.json",
+			"active": false
+		},
+        {
+			"instrument": "MGC",
+			"configPath": "StablePriceAction-MGC.json",
+			"active": true
+		},
+		{
+			"instrument": "M2K",
+			"configPath": "StablePriceAction-M2K.json",
+			"active": false
+		},
+		{
+			"instrument": "MBT",
+			"configPath": "StablePriceAction-MBT.json",
+			"active": true
+		}
+	]
+}
