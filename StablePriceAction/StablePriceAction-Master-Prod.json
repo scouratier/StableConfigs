@@ -13,7 +13,7 @@
 		{
 			"instrument": "FDXS",
 			"configPath": "StablePriceAction-FDXS.json",
-			"active": true
+			"active": false
 		},
 		{
 			"instrument": "MYM",
@@ -33,6 +33,16 @@
         {
 			"instrument": "MGC",
 			"configPath": "StablePriceAction-MGC.json",
+			"active": true
+		},
+		{
+			"instrument": "M2K",
+			"configPath": "StablePriceAction-M2K.json",
+			"active": false
+		},
+		{
+			"instrument": "MBT",
+			"configPath": "StablePriceAction-MBT.json",
 			"active": false
 		}
 	]
