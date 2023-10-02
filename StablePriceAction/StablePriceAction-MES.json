@@ -27,18 +27,19 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 5,
-					"RR": 1.25,
-					"tp": 75
+					"sizing": 2,
+					"RR": 1.5,
+					"tp": 100
 				},
 				{
-					"sizing": 5,
+					"sizing": 4,
 					"RR": 1.3,
-					"tp": 40
+					"tp": 50
 				}
 			]
 		},
 		"breakEven": true,
+		"breakEvenAmount": 15,
 		"trailingTPSizing": 0,
 		"dynamicStopLoss": false
 	},

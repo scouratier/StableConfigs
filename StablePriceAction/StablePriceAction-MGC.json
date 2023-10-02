@@ -36,6 +36,7 @@
 			]
 		},
 		"breakEven": true,
+		"breakEvenAmount": 5,
 		"trailingTPSizing": 0,
 		"dynamicStopLoss": false
 	},
