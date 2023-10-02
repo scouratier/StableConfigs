@@ -7,17 +7,14 @@
 	"drawActiveHighsAndLows": true,
 	"drawMultiTimeFrameState": false,
 	"Consolidation": {
-		"minConsolidationSize": 5,
+		"minConsolidationSize": 0,
 		"consolidationBuffer": 0,
 		"barAgoForSizing": 1,
 		"drawConsolidations": true
 	},
     "breakoutTrading": true,
 	"breakoutTradingSettings": {
-		"ActiveSessions": [{
-			"start": "5:00:00",
-			"end": "15:00:00"
-			}
+		"ActiveSessions": [
 		],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
@@ -28,17 +25,18 @@
 			"targets": [
 				{
 					"sizing": 1,
-					"RR": 1.3,
-					"tp": 50
+					"RR": 1.35,
+					"tp": 100
 				},
                 {
-					"sizing": 1,
+					"sizing": 2,
 					"RR": 1.1,
-					"tp": 10
+					"tp": 45
 				}
 			]
 		},
 		"breakEven": true,
+		"breakEvenAmount": 20,
 		"trailingTPSizing": 0,
 		"dynamicStopLoss": false
 	},

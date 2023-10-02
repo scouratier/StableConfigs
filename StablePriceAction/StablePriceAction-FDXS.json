@@ -19,23 +19,24 @@
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
 		"barRequiredForTrade": 2,
-        "maxEntriesPerDay": 50,
+        "maxEntriesPerDay": 4,
 		"takeProfits": {
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 4,
-					"RR": 1.31,
+					"sizing": 1,
+					"RR": 2.5,
 					"tp": 60
 				},
                 {
-					"sizing": 4,
+					"sizing": 3,
 					"RR": 1.25,
-					"tp": 15
+					"tp": 35
 				}
 			]
 		},
 		"breakEven": true,
+		"breakEvenAmount": 10,
 		"trailingTPSizing": 0,
 		"dynamicStopLoss": false
 	},

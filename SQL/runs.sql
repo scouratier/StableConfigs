@@ -3,5 +3,6 @@ create table runs (
     primary key (id),
     name varchar(32),
     type varchar(32),
+    parent_run int,
     config json
 )
