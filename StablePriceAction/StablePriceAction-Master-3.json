@@ -18,7 +18,7 @@
 		{
 			"instrument": "MYM",
 			"configPath": "StablePriceAction-MYM.json",
-			"active": true
+			"active": false
 		},
         {
 			"instrument": "MCL",
