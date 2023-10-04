@@ -18,12 +18,12 @@
 		{
 			"instrument": "MYM",
 			"configPath": "StablePriceAction-MYM.json",
-			"active": false
+			"active": true
 		},
         {
 			"instrument": "MCL",
 			"configPath": "StablePriceAction-MCL.json",
-			"active": true
+			"active": false
 		},
         {
 			"instrument": "SIL",
