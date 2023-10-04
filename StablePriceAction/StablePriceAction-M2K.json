@@ -24,7 +24,7 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 1,
+					"sizing": 4,
 					"RR": 1.5,
 					"tp": 100
 				},
