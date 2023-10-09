@@ -3,12 +3,12 @@
 	"instruments": [{
 			"instrument": "MNQ",
 			"configPath": "StablePriceAction-MNQ.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MES",
 			"configPath": "StablePriceAction-MES.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "FDXS",
@@ -18,7 +18,7 @@
 		{
 			"instrument": "MYM",
 			"configPath": "StablePriceAction-MYM.json",
-			"active": false
+			"active": true
 		},
         {
 			"instrument": "MCL",
@@ -43,7 +43,7 @@
 		{
 			"instrument": "MBT",
 			"configPath": "StablePriceAction-MBT.json",
-			"active": true
+			"active": false
 		}
 	]
 }
