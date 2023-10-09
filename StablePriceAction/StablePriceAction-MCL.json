@@ -15,25 +15,25 @@
     "breakoutTrading": true,
 	"breakoutTradingSettings": {
 		"ActiveSessions": [{
-			"start": "8:00:00",
-			"end": "14:30:00"
-			}
+				"start": "23:00:00",
+				"end": "8:30:00"
+				}
 		],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
 		"barRequiredForTrade": 2,
-        "maxEntriesPerDay": 8,
+        "maxEntriesPerDay": 6,
 		"takeProfits": {
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 2,
-					"RR": 1.55,
-					"tp": 80
+					"sizing": 1,
+					"RR": 1.9,
+					"tp": 100
 				},
-                {
-					"sizing": 3,
-					"RR": 1.5,
+				{
+					"sizing": 1,
+					"RR": 1.1,
 					"tp": 30
 				}
 			]

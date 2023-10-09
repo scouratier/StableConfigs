@@ -9,7 +9,7 @@
 	"Consolidation": {
 		"minConsolidationSize": 0,
 		"consolidationBuffer": 0,
-		"barAgoForSizing": 1,
+		"barAgoForSizing": 2,
 		"drawConsolidations": true
 	},
     "breakoutTrading": true,
