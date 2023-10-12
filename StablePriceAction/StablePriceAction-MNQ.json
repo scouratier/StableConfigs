@@ -29,8 +29,8 @@
 			"targets": [
 				{
 					"sizing": 3,
-					"RR": 2,
-					"tp": 100
+					"RR": 1.55,
+					"tp": 80
 				},
 				{
 					"sizing": 2,
