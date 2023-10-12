@@ -1,5 +1,10 @@
 {
 	"version": "1.1.1",
+	"LoggerSetting": {
+		"debug": true,
+		"info": true,
+		"logFile": "log/StablePriceAction.log"
+	},
 	"instruments": [{
 			"instrument": "MNQ",
 			"configPath": "StablePriceAction-MNQ.json",

@@ -1,7 +1,7 @@
 {
 	"resetStructureDaily": true,
 	"pullBackValidationPercent": 0.10,
-	"takeShorts": false,
+	"takeShorts": true,
 	"takeLongs": true,
 	"drawDebug": false,
 	"drawActiveHighsAndLows": true,
@@ -15,8 +15,12 @@
     "breakoutTrading": true,
 	"breakoutTradingSettings": {
 		"ActiveSessions": [{
-			"start": "01:00:00",
-			"end": "16:30:00"
+				"start": "01:00:00",
+				"end": "11:00:00"
+			},
+			{
+				"start": "13:30:00",
+				"end": "16:45:00"
 			}
 		],
 		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
@@ -29,8 +33,8 @@
 			"targets": [
 				{
 					"sizing": 3,
-					"RR": 1.55,
-					"tp": 80
+					"RR": 1.8,
+					"tp": 100
 				},
 				{
 					"sizing": 2,
