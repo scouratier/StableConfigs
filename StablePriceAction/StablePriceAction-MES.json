@@ -1,5 +1,5 @@
 {
-	"resetStructureDaily": false,
+	"resetStructureDaily": true,
 	"pullBackValidationPercent": 0.10,
 	"takeShorts": true,
 	"takeLongs": true,
@@ -16,7 +16,7 @@
 	"breakoutTradingSettings": {
 		"ActiveSessions": [{
 			"start": "01:00:00",
-			"end": "16:45:00"
+			"end": "16:00:00"
 		}
 		],
 		"ActiveTradingDays": [ "Monday", "Tuesday", "Wednesday", "Thursday"],
@@ -28,8 +28,8 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 1,
-					"RR": 1.6,
+					"sizing": 2,
+					"RR": 1.65,
 					"tp": 100
 				},
 				{

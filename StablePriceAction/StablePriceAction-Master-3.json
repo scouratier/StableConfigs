@@ -40,7 +40,7 @@
         {
 			"instrument": "MCL",
 			"configPath": "StablePriceAction-MCL.json",
-			"active": true
+			"active": false
 		},
         {
 			"instrument": "SIL",

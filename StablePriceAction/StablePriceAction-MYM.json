@@ -19,7 +19,7 @@
 			"end": "12:00:00"
 			}
 		],
-		"ActiveTradingDays": [ "Monday", "Wednesday", "Thursday", "Friday"],
+		"ActiveTradingDays": [ "Sunday", "Monday", "Wednesday", "Thursday" ],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
 		"barRequiredForTrade": 2,
