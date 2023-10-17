@@ -1,13 +1,25 @@
 {
 	"version": "1.2.1",
-	"LoggerSetting": {
-		"debug": false,
+	"loggerSettings": {
+		"debug": true,
 		"info": true,
 		"logFile": "StablePriceAction.log"
+	},
+	"mysql": {
+		"server": "192.168.1.2",
+		"port": 33060,
+		"username": "ninjascript",
+		"password": "9%W$FRrpnW&tNogZ",
+		"database": "stablepriceaction"
 	},
 	"instruments": [{
 			"instrument": "MNQ",
 			"configPath": "StablePriceAction-MNQ.json",
+			"active": true
+		},
+		{
+			"instrument": "NQ",
+			"configPath": "StablePriceAction-NQ.json",
 			"active": true
 		},
 		{
@@ -28,7 +40,7 @@
         {
 			"instrument": "MCL",
 			"configPath": "StablePriceAction-MCL.json",
-			"active": false
+			"active": true
 		},
         {
 			"instrument": "SIL",

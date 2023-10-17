@@ -7,48 +7,48 @@
 	},
 	"instruments": [{
 			"instrument": "MNQ",
-			"configPath": "StablePriceAction-MNQ.json",
+			"configPath": "StablePriceAction-MNQ-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "MES",
-			"configPath": "StablePriceAction-MES.json",
+			"configPath": "StablePriceAction-MES-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "FDXS",
-			"configPath": "StablePriceAction-FDXS.json",
-			"active": false
+			"configPath": "StablePriceAction-FDXS-Dev.json",
+			"active": true
 		},
 		{
 			"instrument": "MYM",
-			"configPath": "StablePriceAction-MYM.json",
+			"configPath": "StablePriceAction-MYM-Dev.json",
 			"active": true
 		},
         {
 			"instrument": "MCL",
-			"configPath": "StablePriceAction-MCL.json",
-			"active": false
+			"configPath": "StablePriceAction-MCL-Dev.json",
+			"active": true
 		},
         {
 			"instrument": "SIL",
-			"configPath": "StablePriceAction-SIL.json",
+			"configPath": "StablePriceAction-SIL-Dev.json",
 			"active": false
 		},
         {
 			"instrument": "MGC",
-			"configPath": "StablePriceAction-MGC.json",
+			"configPath": "StablePriceAction-MGC-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "M2K",
-			"configPath": "StablePriceAction-M2K.json",
-			"active": false
+			"configPath": "StablePriceAction-M2K-Dev.json",
+			"active": true
 		},
 		{
 			"instrument": "MBT",
-			"configPath": "StablePriceAction-MBT.json",
-			"active": false
+			"configPath": "StablePriceAction-MBT-Dev.json",
+			"active": true
 		}
 	]
 }
