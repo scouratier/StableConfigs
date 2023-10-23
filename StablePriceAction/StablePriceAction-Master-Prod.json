@@ -50,7 +50,7 @@
 		{
 			"instrument": "M2K",
 			"configPath": "StablePriceAction-M2K.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MBT",

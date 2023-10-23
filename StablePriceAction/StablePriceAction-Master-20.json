@@ -38,7 +38,7 @@
         {
 			"instrument": "MGC",
 			"configPath": "StablePriceAction-MGC.json",
-			"active": true
+			"active": false
 		},
 		{
 			"instrument": "M2K",

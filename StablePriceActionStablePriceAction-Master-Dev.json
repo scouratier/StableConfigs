@@ -7,47 +7,47 @@
 	},
 	"instruments": [{
 			"instrument": "MNQ",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MNQ-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "MES",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MES-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "FDXS",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-FDXS-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "MYM",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MYM-Dev.json",
 			"active": true
 		},
         {
 			"instrument": "MCL",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MCL-Dev.json",
 			"active": true
 		},
         {
 			"instrument": "SIL",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-SIL-Dev.json",
 			"active": false
 		},
         {
 			"instrument": "MGC",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MGC-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "M2K",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-M2K-Dev.json",
 			"active": true
 		},
 		{
 			"instrument": "MBT",
-			"configPath": "StablePriceAction-any-Dev.json",
+			"configPath": "StablePriceAction-MBT-Dev.json",
 			"active": true
 		}
 	]

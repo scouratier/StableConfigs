@@ -50,16 +50,21 @@
         {
 			"instrument": "MGC",
 			"configPath": "StablePriceAction-MGC.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "M2K",
 			"configPath": "StablePriceAction-M2K.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MBT",
 			"configPath": "StablePriceAction-MBT.json",
+			"active": false
+		},
+		{
+			"instrument": "ZN",
+			"configPath": "StablePriceAction-ZN.json",
 			"active": false
 		}
 	]
