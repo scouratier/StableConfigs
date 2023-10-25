@@ -3,4 +3,4 @@ create table portfolio_runs (
     primary key (id),
     start datetime,
     master_config json
-)
+);

@@ -33,11 +33,11 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 5,
+					"sizing": 20,
 					"amount": 10
 				},
 				{
-					"sizing": 5,
+					"sizing": 20,
 					"amount": 100
 				}
 			]

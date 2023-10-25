@@ -16,7 +16,7 @@
 	"breakoutTradingSettings": {
 		"ActiveSessions": [{
 				"start": "01:00:00",
-				"end": "8:00:00"
+				"end": "7:45:00"
 			},			
 			{
 				"start": "10:00:00",
@@ -35,7 +35,7 @@
 		"stoploss": {
 			"style": "static",
 			"amount": 50,
-			"breakEven": true,
+			"breakEven": false,
 			"breakEvenAmount": 15,
 			"trailingTPSizing": 0,
 			"dynamicStopLoss": false
@@ -44,12 +44,8 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 4,
+					"sizing": 5,
 					"amount": 25
-				},
-				{
-					"sizing": 1,
-					"amount": 100
 				}
 			]
 		}

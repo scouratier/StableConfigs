@@ -12,4 +12,4 @@ create table trades (
     exit_name varchar(64),
     runid int,
     timeframe int
-)
+);

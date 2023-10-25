@@ -5,4 +5,4 @@ create table runs (
     type varchar(32),
     parent_run int,
     config json
-)
+);
