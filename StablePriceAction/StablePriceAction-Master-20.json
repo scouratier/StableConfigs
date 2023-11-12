@@ -5,6 +5,9 @@
 		"info": true,
 		"logFile": "StablePriceAction.log"
 	},
+	"forwarderSettings": {
+		"proxyAddr": "172.30.37.9:12345"
+	},
 	"instruments": [{
 			"instrument": "MNQ",
 			"configPath": "StablePriceAction-MNQ.json",

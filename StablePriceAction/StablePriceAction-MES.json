@@ -34,7 +34,7 @@
         "maxEntriesPerDay": 50,
 		"stoploss": {
 			"style": "static",
-			"amount": 50,
+			"amount": 49,
 			"breakEven": false,
 			"breakEvenAmount": 15,
 			"trailingTPSizing": 0,
@@ -44,8 +44,8 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 5,
-					"amount": 25
+					"sizing": 2,
+					"amount": 51
 				}
 			]
 		}

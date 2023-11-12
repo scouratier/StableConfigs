@@ -5,12 +5,8 @@
 		"info": true,
 		"logFile": "StablePriceAction.log"
 	},
-	"mysql": {
-		"server": "192.168.1.2",
-		"port": 33060,
-		"username": "ninjascript",
-		"password": "9%W$FRrpnW&tNogZ",
-		"database": "stablepriceaction"
+	"forwarderSettings": {
+		"proxyAddr": "http://172.30.37.9:12345"
 	},
 	"instruments": [{
 			"instrument": "MNQ",
@@ -30,7 +26,7 @@
 		{
 			"instrument": "MYM",
 			"configPath": "StablePriceAction-MYM.json",
-			"active": true
+			"active": false
 		},
         {
 			"instrument": "MCL",
@@ -45,12 +41,12 @@
         {
 			"instrument": "MGC",
 			"configPath": "StablePriceAction-MGC.json",
-			"active": true
+			"active": false
 		},
 		{
 			"instrument": "M2K",
 			"configPath": "StablePriceAction-M2K.json",
-			"active": true
+			"active": false
 		},
 		{
 			"instrument": "MBT",
