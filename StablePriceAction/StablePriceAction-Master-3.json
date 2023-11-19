@@ -16,12 +16,12 @@
 		{
 			"instrument": "NQ",
 			"configPath": "StablePriceAction-NQ.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "ES",
 			"configPath": "StablePriceAction-ES.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MES",
@@ -36,12 +36,12 @@
 		{
 			"instrument": "MYM",
 			"configPath": "StablePriceAction-MYM.json",
-			"active": false
+			"active": true
 		},
         {
 			"instrument": "MCL",
 			"configPath": "StablePriceAction-MCL.json",
-			"active": false
+			"active": true
 		},
         {
 			"instrument": "SIL",
@@ -51,12 +51,12 @@
         {
 			"instrument": "MGC",
 			"configPath": "StablePriceAction-MGC.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "M2K",
 			"configPath": "StablePriceAction-M2K.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MBT",
