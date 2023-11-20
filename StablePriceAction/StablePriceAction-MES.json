@@ -40,7 +40,7 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 1,
+					"sizing": 2,
 					"amount": 50
 				}
 			]

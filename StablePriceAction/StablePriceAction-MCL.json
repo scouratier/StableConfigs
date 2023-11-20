@@ -1,6 +1,6 @@
 {
 	"resetStructureDaily": true,
-	"pullBackValidationPercent": 0.10,
+	"pullBackValidationPercent": 0.25,
 	"takeShorts": true,
 	"takeLongs": true,
 	"drawDebug": false,
@@ -23,7 +23,7 @@
         "maxEntriesPerDay": 20,
 		"stoploss": {
 			"style": "static",
-			"amount": 40,
+			"amount": 50,
 			"breakEven": true,
 			"breakEvenAmount": 15,
 			"trailingTPSizing": 0,
@@ -34,7 +34,7 @@
 			"targets": [
 				{
 					"sizing": 1,
-					"amount": 40
+					"amount": 15
 				}
 			]
 		}
