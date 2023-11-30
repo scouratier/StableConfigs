@@ -36,7 +36,7 @@
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 3,
+					"sizing": 6,
 					"amount": 40
 				}
 			]

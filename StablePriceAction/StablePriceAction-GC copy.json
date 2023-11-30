@@ -1,23 +1,31 @@
 {
 	"resetStructureDaily": true,
-	"pullBackValidationPercent": 0.10,
-	"takeShorts": false,
-	"takeLongs": true,
+	"pullBackValidationPercent": 0.35,
+	"takeShorts": true,
+	"takeLongs": false,
 	"drawDebug": false,
 	"drawActiveHighsAndLows": true,
 	"drawMultiTimeFrameState": false,
 	"Consolidation": {
 		"minConsolidationSize": 0,
 		"consolidationBuffer": 0,
-		"barAgoForSizing": 2,
+		"barAgoForSizing": 1,
 		"drawConsolidations": true
 	},
     "breakoutTrading": true,
 	"breakoutTradingSettings": {
 		"ActiveSessions": [{
-			"start": "11:00:00",
+			"start": "21:00:00",
+			"end": "00:55:00"
+		},
+		{
+			"start": "03:00:00",
+			"end": "08:00:00"
+		},
+		{
+			"start": "09:30:00",
 			"end": "14:00:00"
-		}
+		}	
 		],
 		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
 		"maxRiskPerContract": 5000,
@@ -26,7 +34,7 @@
         "maxEntriesPerDay": 8,
 		"stoploss": {
 			"style": "static",
-			"amount": 50,
+			"amount": 800,
 			"breakEven": false,
 			"breakEvenAmount": 15,
 			"trailingTPSizing": 0,
@@ -37,37 +45,31 @@
 			"targets": [
 				{
 					"sizing": 1,
-					"amount": 50
+					"amount": 400
 				}
 			]
 		}
 	},
 	"multiTimeFrameTrading": false,
 	"multiTimeFrameTradingSettings": {
+		"lowTimeFrame": 5,
+		"midTimeFrame": 90,
 		"highTimeFrame": 240,
-		"ActiveSessions": [],
-		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
-		"barRequiredForTrade": 2,
-        "maxEntriesPerDay": 8,
-		"stoploss": {
-			"style": "static",
-			"amount": 49,
-			"breakEven": false,
-			"breakEvenAmount": 15,
-			"trailingTPSizing": 0,
-			"dynamicStopLoss": false
-		},
 		"takeProfits": {
 			"style": "static",
 			"targets": [
 				{
 					"sizing": 1,
-					"amount": 50
+					"RR": 0.5,
+					"tp": 10
 				}
 			]
-		}
+		},
+		"breakEven": true,
+		"trailingTPSizing": 0,
+		"dynamicStopLoss": true
 	},
 	"swingStyleTrading": false,
 	"swingStyleTradingSettings": {

@@ -1,9 +1,13 @@
 {
-	"version": "1.2.1",
+	"version": "2.2.1",
 	"loggerSettings": {
 		"debug": true,
 		"info": true,
-		"logFile": "StablePriceAction.log"
+		"logFile": "StablePriceAction-Optimizer.log"
+	},
+	"optimize": true,
+	"configServer": {
+		"address": "http://127.0.0.1:55555"
 	},
 	"forwarderSettings": {
 		"proxyAddr": "http://172.26.76.229:12345"
@@ -31,7 +35,7 @@
 		{
 			"instrument": "FDXS",
 			"configPath": "StablePriceAction-FDXS.json",
-			"active": false
+			"active": true
 		},
 		{
 			"instrument": "MYM",
@@ -45,32 +49,32 @@
 		},
         {
 			"instrument": "SIL",
-			"configPath": "StablePriceAction-SIL.json",
-			"active": false
+			"configPath": "",
+			"active": true
 		},
         {
 			"instrument": "MGC",
-			"configPath": "StablePriceAction-MGC.json",
+			"configPath": "",
 			"active": true
 		},
 		{
 			"instrument": "GC",
-			"configPath": "StablePriceAction-GC.json",
+			"configPath": "",
 			"active": true
 		},
 		{
 			"instrument": "M2K",
-			"configPath": "StablePriceAction-M2K.json",
+			"configPath": "",
 			"active": true
 		},
 		{
 			"instrument": "MBT",
-			"configPath": "StablePriceAction-MBT.json",
+			"configPath": "",
 			"active": true
 		},
 		{
 			"instrument": "ZN",
-			"configPath": "StablePriceAction-ZN.json",
+			"configPath": "",
 			"active": true
 		}
 	]
