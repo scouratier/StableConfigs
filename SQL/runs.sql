@@ -1,8 +1,18 @@
 create table runs (
-    id int not null auto_increment,
+    id varchar(32) not null,
     primary key (id),
-    name varchar(32),
-    type varchar(32),
+    instrument varchar(16),
+    config  json,
+    start_time datetime,
+    timeframe int,
     parent_run int,
-    config json
+    maxdrawdown float,
+    cum_profit float,
+    cum_losses float,
+    consec_wins int,
+    consec_loss int,
+    trade_count int,
+    first_trade datetime,
+    last_trade datetime,
+    win_percent float
 );

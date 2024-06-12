@@ -1,5 +1,5 @@
 create table trades (
-    id int not null auto_increment,
+    id varchar(32) not null,
     primary key (id),
     instrument varchar(16),
     account varchar(32),
@@ -8,8 +8,13 @@ create table trades (
     entry_price float,
     exit_price float,
     entry_date datetime,
-    exit_data datetime,
+    exit_date datetime,
     exit_name varchar(64),
-    runid int,
-    timeframe int
+    runid varchar(32),
+    timeframe int,
+    profit float,
+    strategy varchar(128),
+    startTime datetime,
+    masterConfig varchar(32),
+    drawdown float
 );

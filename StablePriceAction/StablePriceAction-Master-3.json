@@ -6,7 +6,7 @@
 		"logFile": "StablePriceAction.log"
 	},
 	"forwarderSettings": {
-		"proxyAddr": "http://172.26.76.229:12345"
+		"proxyAddr": "http://192.168.1.2:12345"
 	},
 	"instruments": [{
 			"instrument": "MNQ",

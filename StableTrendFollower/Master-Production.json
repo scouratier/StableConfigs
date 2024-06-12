@@ -1,0 +1,81 @@
+{
+	"version": "2.2.1",
+	"loggerSettings": {
+		"debug": false,
+		"info": false,
+		"logFile": "production.log"
+	},
+	"optimize": true,
+	"configServer": {
+		"address": "http://192.168.1.2:55555"
+	},
+	"forwarderSettings": {
+		"proxyAddr": "http://192.168.1.2:12345"
+	},
+	"instruments": [{
+			"instrument": "MNQ",
+			"configPath": "StablePriceAction-MNQ.json",
+			"active": true
+		},
+		{
+			"instrument": "NQ",
+			"configPath": "StablePriceAction-NQ.json",
+			"active": true
+		},
+		{
+			"instrument": "ES",
+			"configPath": "StablePriceAction-ES.json",
+			"active": true
+		},
+		{
+			"instrument": "MES",
+			"configPath": "StablePriceAction-MES.json",
+			"active": true
+		},
+		{
+			"instrument": "FDXS",
+			"configPath": "StablePriceAction-FDXS.json",
+			"active": true
+		},
+		{
+			"instrument": "MYM",
+			"configPath": "StablePriceAction-MYM.json",
+			"active": true
+		},
+        {
+			"instrument": "MCL",
+			"configPath": "StablePriceAction-MCL.json",
+			"active": true
+		},
+        {
+			"instrument": "SIL",
+			"configPath": "",
+			"active": true
+		},
+        {
+			"instrument": "MGC",
+			"configPath": "",
+			"active": true
+		},
+		{
+			"instrument": "GC",
+			"configPath": "",
+			"active": true
+		},
+		{
+			"instrument": "M2K",
+			"configPath": "",
+			"active": true
+		},
+		{
+			"instrument": "MBT",
+			"configPath": "",
+			"active": true
+		},
+		{
+			"instrument": "ZN",
+			"configPath": "",
+			"active": true
+		}
+	]
+}

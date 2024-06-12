@@ -1,16 +1,16 @@
 {
 	"version": "2.2.1",
 	"loggerSettings": {
-		"debug": true,
-		"info": true,
+		"debug": false,
+		"info": false,
 		"logFile": "StablePriceAction-Optimizer.log"
 	},
 	"optimize": true,
 	"configServer": {
-		"address": "http://127.0.0.1:55555"
+		"address": "http://192.168.1.2:55555"
 	},
 	"forwarderSettings": {
-		"proxyAddr": "http://172.26.76.229:12345"
+		"proxyAddr": "http://192.168.1.2:12345"
 	},
 	"instruments": [{
 			"instrument": "MNQ",
