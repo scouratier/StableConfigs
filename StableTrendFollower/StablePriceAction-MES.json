@@ -1,0 +1,105 @@
+{
+	"drawDebug": false,
+	"takeLongs": true,
+	"takeShorts": true,
+	"Consolidation": {
+		"barAgoForSizing": 1,
+		"drawConsolidations": false,
+		"consolidationBuffer": 0,
+		"minConsolidationSize": 0
+	},
+	"breakoutTrading": true,
+	"swingStyleTrading": false,
+	"resetStructureDaily": true,
+	"multiTimeFrameTrading": false,
+	"drawActiveHighsAndLows": false,
+	"breakoutTradingSettings": {
+		"stoploss": {
+			"style": "static",
+			"amount": 40,
+			"breakEven": false,
+			"breakEvenAmount": 15,
+			"dynamicStopLoss": false,
+			"trailingTPSizing": 0
+		},
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"amount": 20,
+					"sizing": 1
+				}
+			]
+		},
+		"ActiveSessions": [{
+			"start": "18:00:00",
+			"end": "16:50:00"
+		}],
+		"maxEntriesPerDay": 50,
+		"ActiveTradingDays": [
+			"Sunday",
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday"
+		],
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"barRequiredForTrade": 2
+	},
+	"drawMultiTimeFrameState": false,
+	"pullBackValidationPercent": 0.2,
+	"swingStyleTradingSettings": {
+		"breakEven": true,
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"RR": 0.1,
+					"tp": 50,
+					"sizing": 1
+				}
+			]
+		},
+		"lowTimeFrame": 1,
+		"entriesPerDay": 1,
+		"highTimeFrame": 180,
+		"staticStopLoss": 200,
+		"dynamicStopLoss": false,
+		"trailingTPSizing": 1,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1
+	},
+	"multiTimeFrameTradingSettings": {
+		"stoploss": {
+			"style": "static",
+			"amount": 49,
+			"breakEven": false,
+			"breakEvenAmount": 15,
+			"dynamicStopLoss": false,
+			"trailingTPSizing": 0
+		},
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"amount": 50,
+					"sizing": 1
+				}
+			]
+		},
+		"highTimeFrame": 240,
+		"ActiveSessions": [],
+		"maxEntriesPerDay": 8,
+		"ActiveTradingDays": [
+			"Sunday",
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday"
+		],
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"barRequiredForTrade": 2
+	}
+}

@@ -1,96 +1,109 @@
 {
-	"resetStructureDaily": true,
-	"pullBackValidationPercent": 0.35,
-	"takeShorts": true,
-	"takeLongs": false,
+	"id": 1036,
+	"version": "0.0.1",
 	"drawDebug": false,
-	"drawActiveHighsAndLows": true,
-	"drawMultiTimeFrameState": false,
+	"takeLongs": true,
+	"takeShorts": true,
 	"Consolidation": {
-		"minConsolidationSize": 0,
-		"consolidationBuffer": 0,
 		"barAgoForSizing": 1,
-		"drawConsolidations": true
+		"drawConsolidations": false,
+		"consolidationBuffer": 0,
+		"minConsolidationSize": 0
 	},
-    "breakoutTrading": true,
+	"breakoutTrading": true,
+	"swingStyleTrading": false,
+	"resetStructureDaily": true,
+	"multiTimeFrameTrading": false,
+	"drawActiveHighsAndLows": false,
 	"breakoutTradingSettings": {
-		"ActiveSessions": [{
-			"start": "21:00:00",
-			"end": "00:55:00"
-		},
-		{
-			"start": "03:00:00",
-			"end": "08:00:00"
-		},
-		{
-			"start": "09:30:00",
-			"end": "14:00:00"
-		}	
-		],
-		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-		"maxRiskPerContract": 5000,
-		"minRiskPerContract": 1,
-		"barRequiredForTrade": 2,
-        "maxEntriesPerDay": 8,
 		"stoploss": {
 			"style": "static",
-			"amount": 80,
+			"amount": 100,
 			"breakEven": false,
 			"breakEvenAmount": 15,
-			"trailingTPSizing": 0,
-			"dynamicStopLoss": false
+			"dynamicStopLoss": false,
+			"trailingTPSizing": 0
 		},
 		"takeProfits": {
 			"style": "static",
 			"targets": [
 				{
-					"sizing": 3,
-					"amount": 40
+					"amount": 30,
+					"sizing": 1
 				}
 			]
-		}
-	},
-	"multiTimeFrameTrading": false,
-	"multiTimeFrameTradingSettings": {
-		"lowTimeFrame": 5,
-		"midTimeFrame": 90,
-		"highTimeFrame": 240,
+		},
+		"ActiveSessions": [
+			{
+				"end": "16:45:00",
+				"start": "02:00:00"
+			}
+		],
+		"maxEntriesPerDay": 50,
+		"ActiveTradingDays": [
+			"Sunday",
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday"
+		],
 		"maxRiskPerContract": 5000,
 		"minRiskPerContract": 1,
-		"takeProfits": {
-			"style": "static",
-			"targets": [
-				{
-					"sizing": 1,
-					"RR": 0.5,
-					"tp": 10
-				}
-			]
-		},
-		"breakEven": true,
-		"trailingTPSizing": 0,
-		"dynamicStopLoss": true
+		"barRequiredForTrade": 0
 	},
-	"swingStyleTrading": false,
+	"drawMultiTimeFrameState": false,
+	"pullBackValidationPercent": 0.4,
 	"swingStyleTradingSettings": {
-		"lowTimeFrame": 1,
-		"highTimeFrame": 180,
-		"maxRiskPerContract": 5000,
-		"minRiskPerContract": 1,
+		"breakEven": true,
 		"takeProfits": {
 			"style": "static",
-			"targets":[
+			"targets": [
 				{
-					"sizing": 1,
 					"RR": 0.1,
-					"tp": 50
+					"tp": 50,
+					"sizing": 1
 				}
 			]
 		},
-		"breakEven": true,
-		"trailingTPSizing": 1,
-		"dynamicStopLoss": false,
+		"lowTimeFrame": 1,
+		"entriesPerDay": 1,
+		"highTimeFrame": 180,
 		"staticStopLoss": 200,
-		"entriesPerDay": 1
+		"dynamicStopLoss": false,
+		"trailingTPSizing": 1,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1
+	},
+	"multiTimeFrameTradingSettings": {
+		"stoploss": {
+			"style": "static",
+			"amount": 49,
+			"breakEven": false,
+			"breakEvenAmount": 15,
+			"dynamicStopLoss": false,
+			"trailingTPSizing": 0
+		},
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"amount": 50,
+					"sizing": 1
+				}
+			]
+		},
+		"highTimeFrame": 240,
+		"ActiveSessions": [],
+		"maxEntriesPerDay": 8,
+		"ActiveTradingDays": [
+			"Sunday",
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday"
+		],
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"barRequiredForTrade": 2
 	}
 }

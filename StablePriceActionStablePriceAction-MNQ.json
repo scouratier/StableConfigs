@@ -1,0 +1,94 @@
+{
+	"resetStructureDaily": true,
+	"pullBackValidationPercent": 0.10,
+	"takeShorts": false,
+	"takeLongs": true,
+	"drawDebug": false,
+	"drawActiveHighsAndLows": true,
+	"drawMultiTimeFrameState": false,
+	"Consolidation": {
+		"minConsolidationSize": 20,
+		"consolidationBuffer": 2,
+		"barAgoForSizing": 2,
+		"drawConsolidations": true
+	},
+    "breakoutTrading": true,
+	"breakoutTradingSettings": {
+		"ActiveSessions": [{
+			"start": "01:00:00",
+			"end": "16:30:00"
+		}
+		],
+		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"barRequiredForTrade": 1,
+        "maxEntriesPerDay": 8,
+		"stoploss": {
+			"style": "static",
+			"amount": 40,
+			"breakEven": false,
+			"breakEvenAmount": 15,
+			"trailingTPSizing": 0,
+			"dynamicStopLoss": false
+		},
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"sizing": 3,
+					"amount": 40
+				}
+			]
+		}
+	},
+	"multiTimeFrameTrading": false,
+	"multiTimeFrameTradingSettings": {
+		"highTimeFrame": 240,
+		"ActiveSessions": [],
+		"ActiveTradingDays": [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"barRequiredForTrade": 2,
+        "maxEntriesPerDay": 8,
+		"stoploss": {
+			"style": "static",
+			"amount": 49,
+			"breakEven": false,
+			"breakEvenAmount": 15,
+			"trailingTPSizing": 0,
+			"dynamicStopLoss": false
+		},
+		"takeProfits": {
+			"style": "static",
+			"targets": [
+				{
+					"sizing": 1,
+					"amount": 50
+				}
+			]
+		}
+	},
+	"swingStyleTrading": false,
+	"swingStyleTradingSettings": {
+		"lowTimeFrame": 1,
+		"highTimeFrame": 180,
+		"maxRiskPerContract": 5000,
+		"minRiskPerContract": 1,
+		"takeProfits": {
+			"style": "static",
+			"targets":[
+				{
+					"sizing": 1,
+					"RR": 0.1,
+					"tp": 50
+				}
+			]
+		},
+		"breakEven": true,
+		"trailingTPSizing": 1,
+		"dynamicStopLoss": false,
+		"staticStopLoss": 200,
+		"entriesPerDay": 1
+	}
+}

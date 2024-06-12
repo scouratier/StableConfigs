@@ -1,0 +1,92 @@
+{
+	"version": "3.2.1",
+	"loggerSettings": {
+		"debug": false,
+		"info": false,
+		"logFile": "backtest.log"
+	},
+	"optimize": true,
+	"configServer": {
+		"address": "http://172.22.86.132:55555"
+	},
+	"forwarderSettings": {
+		"proxyAddr": "http://192.168.1.2:12345"
+	},
+	"instruments": [{
+			"instrument": "MNQ",
+			"active": true
+		},
+		{
+			"instrument": "NQ",
+			"active": true
+		},
+		{
+			"instrument": "ES",
+			"active": true
+		},
+		{
+			"instrument": "RTY",
+			"active": true
+		},
+		{
+			"instrument": "YM",
+			"active": true
+		},
+		{
+			"instrument": "MES",
+			"active": true
+		},
+		{
+			"instrument": "CL",
+			"active": true
+		},
+		{
+			"instrument": "FDXS",
+			"active": true
+		},
+		{
+			"instrument": "MYM",
+			"active": true
+		},
+        {
+			"instrument": "MCL",
+			"active": true
+		},
+        {
+			"instrument": "SIL",
+			"active": true
+		},
+        {
+			"instrument": "MGC",
+			"active": true
+		},
+		{
+			"instrument": "M6B",
+			"active": true
+		},
+		{
+			"instrument": "M6E",
+			"active": true
+		},
+		{
+			"instrument": "MHG",
+			"active": true
+		},
+		{
+			"instrument": "GC",
+			"active": true
+		},
+		{
+			"instrument": "M2K",
+			"active": true
+		},
+		{
+			"instrument": "MBT",
+			"active": true
+		},
+		{
+			"instrument": "ZN",
+			"active": true
+		}
+	]
+}

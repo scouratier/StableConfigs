@@ -1,0 +1,72 @@
+{
+	"version": "1.2.1",
+	"loggerSettings": {
+		"debug": true,
+		"info": true,
+		"logFile": "StablePriceAction.log"
+	},
+	"forwarderSettings": {
+		"proxyAddr": "http://172.30.37.9:12345"
+	},
+	"instruments": [{
+			"instrument": "MNQ",
+			"configPath": "StablePriceAction-MNQ.json",
+			"active": true
+		},
+		{
+			"instrument": "NQ",
+			"configPath": "StablePriceAction-NQ.json",
+			"active": true
+		},
+		{
+			"instrument": "ES",
+			"configPath": "StablePriceAction-ES.json",
+			"active": true
+		},
+		{
+			"instrument": "MES",
+			"configPath": "StablePriceAction-MES.json",
+			"active": true
+		},
+		{
+			"instrument": "FDXS",
+			"configPath": "StablePriceAction-FDXS.json",
+			"active": false
+		},
+		{
+			"instrument": "MYM",
+			"configPath": "StablePriceAction-MYM.json",
+			"active": true
+		},
+        {
+			"instrument": "MCL",
+			"configPath": "StablePriceAction-MCL.json",
+			"active": true
+		},
+        {
+			"instrument": "SIL",
+			"configPath": "StablePriceAction-SIL.json",
+			"active": false
+		},
+        {
+			"instrument": "MGC",
+			"configPath": "StablePriceAction-MGC.json",
+			"active": true
+		},
+		{
+			"instrument": "M2K",
+			"configPath": "StablePriceAction-M2K.json",
+			"active": true
+		},
+		{
+			"instrument": "MBT",
+			"configPath": "StablePriceAction-MBT.json",
+			"active": false
+		},
+		{
+			"instrument": "ZN",
+			"configPath": "StablePriceAction-ZN.json",
+			"active": false
+		}
+	]
+}
