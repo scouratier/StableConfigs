@@ -1,6 +1,6 @@
 create table trades (
-    id varchar(32) not null,
-    primary key (id),
+    tradeid varchar(32) not null,
+    primary key (tradeid),
     instrument varchar(16),
     account varchar(32),
     market_position varchar(16),

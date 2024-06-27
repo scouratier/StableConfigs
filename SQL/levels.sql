@@ -1,6 +1,6 @@
 create table levels (
-    id int not null auto_increment,
-    primary key (id),
+    levelid int not null auto_increment,
+    primary key (levelid),
     instrument varchar(16),
     timeframe int,
     price_high float,

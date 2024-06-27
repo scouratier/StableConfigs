@@ -1,6 +1,6 @@
 create table metaruns (
-    id varchar(32) not null,
-    primary key (id),
+    metarunid varchar(32) not null,
+    primary key (metarunid),
     source_runs json,
     created_on datetime,
     maxdrawdown float,

@@ -1,6 +1,6 @@
 create table raw_levels (
-    id int not null auto_increment,
-    primary key (id),
+    raw_levelid varchar(32) not null,
+    primary key (raw_levelid),
     instrument varchar(16),
     timeframe int,
     price float,

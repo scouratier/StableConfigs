@@ -1,6 +1,6 @@
 create table runs (
-    id varchar(32) not null,
-    primary key (id),
+    runid varchar(32) not null,
+    primary key (runid),
     instrument varchar(16),
     config  json,
     start_time datetime,
@@ -14,5 +14,6 @@ create table runs (
     trade_count int,
     first_trade datetime,
     last_trade datetime,
-    win_percent float
+    win_percent float,
+    configid int
 );
