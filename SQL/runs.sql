@@ -15,5 +15,6 @@ create table runs (
     first_trade datetime,
     last_trade datetime,
     win_percent float,
-    configid int
+    configid int,
+    dllversion varchar(64),
 );
