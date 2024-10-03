@@ -16,5 +16,6 @@ create table trades (
     strategy varchar(128),
     startTime datetime,
     masterConfig varchar(32),
-    drawdown float
+    drawdown float,
+    commission float,
 );
